@@ -11,4 +11,4 @@ def hello_world():
 @app.route('/hi', methods=['GET'])
 def hi():
   user_name = request.args.get("userName", "unknown")
-  return render_template('main.html', user=user_name) 
+  return render_template('main2.html', user=user_name) 

@@ -1,3 +1,18 @@
-body{
-    background-color: olive;
-}
+body {
+    background-color: lightblue;
+  }
+h1 {
+    color: SeaGreen;
+  }
+  
+  
+  p, 
+  li {
+    font-size: 18px;
+    color: red;
+  }
+  
+  
+  a {
+    text-decoration: none;
+  }
