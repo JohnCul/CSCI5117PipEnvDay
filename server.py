@@ -1,5 +1,12 @@
 from flask import Flask, request, render_template
+import os
+from dotenv import load_dotenv
 
+load_dotenv()
+my_id = os.getenv("ID")
+my_secret_key = os.getenv("SECRET_KEY")
+
+print(my_id, ", ", my_secret_key)
 
 app = Flask(__name__)
 
